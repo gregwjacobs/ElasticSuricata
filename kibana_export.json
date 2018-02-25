@@ -1,0 +1,317 @@
+[
+  {
+    "_id": "bdeb13e0-f8ad-11e7-8fd7-f5df6d5babe9",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Top Talkers",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"gridData\":{\"h\":6,\"i\":\"1\",\"w\":6,\"x\":0,\"y\":0},\"id\":\"60897020-f8ad-11e7-8fd7-f5df6d5babe9\",\"panelIndex\":\"1\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"gridData\":{\"h\":6,\"i\":\"2\",\"w\":6,\"x\":6,\"y\":0},\"id\":\"9d0f0f50-f8ad-11e7-8fd7-f5df6d5babe9\",\"panelIndex\":\"2\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"gridData\":{\"h\":5,\"i\":\"3\",\"w\":12,\"x\":0,\"y\":6},\"id\":\"f822fd10-f8ae-11e7-8fd7-f5df6d5babe9\",\"panelIndex\":\"3\",\"type\":\"visualization\",\"version\":\"6.1.1\"},{\"gridData\":{\"h\":7,\"i\":\"4\",\"w\":12,\"x\":0,\"y\":11},\"id\":\"232f51c0-8942-11e7-9b65-0b2e32ce3ad2\",\"panelIndex\":\"4\",\"type\":\"search\",\"version\":\"6.1.1\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"hidePanelTitles\":false,\"useMargins\":true}",
+      "uiStateJSON": "{\"P-2\":{\"vis\":{\"legendOpen\":false}}}",
+      "version": 1,
+      "timeRestore": false,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"language\":\"lucene\",\"query\":\"\"},\"filter\":[],\"highlightAll\":true,\"version\":true}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "1aad6850-893a-11e7-813c-6b8d6399e4b1",
+    "_type": "dashboard",
+    "_source": {
+      "title": "IDS Dashboard",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"panelIndex\":\"2\",\"gridData\":{\"x\":0,\"y\":4,\"w\":5,\"h\":8,\"i\":\"2\"},\"id\":\"e880b620-8939-11e7-813c-6b8d6399e4b1\",\"type\":\"visualization\",\"version\":\"6.1.0\"},{\"panelIndex\":\"3\",\"gridData\":{\"x\":5,\"y\":0,\"w\":7,\"h\":4,\"i\":\"3\"},\"id\":\"a61916a0-893a-11e7-813c-6b8d6399e4b1\",\"type\":\"visualization\",\"version\":\"6.1.0\"},{\"panelIndex\":\"4\",\"gridData\":{\"x\":0,\"y\":0,\"w\":5,\"h\":4,\"i\":\"4\"},\"id\":\"6953b9e0-893b-11e7-813c-6b8d6399e4b1\",\"type\":\"visualization\",\"version\":\"6.1.0\"},{\"panelIndex\":\"5\",\"gridData\":{\"x\":6,\"y\":12,\"w\":6,\"h\":6,\"i\":\"5\"},\"id\":\"ed6e2070-893c-11e7-813c-6b8d6399e4b1\",\"type\":\"visualization\",\"version\":\"6.1.0\"},{\"panelIndex\":\"6\",\"gridData\":{\"x\":0,\"y\":18,\"w\":7,\"h\":6,\"i\":\"6\"},\"id\":\"1c45f060-893f-11e7-9b65-0b2e32ce3ad2\",\"type\":\"visualization\",\"version\":\"6.1.0\"},{\"panelIndex\":\"7\",\"gridData\":{\"x\":7,\"y\":18,\"w\":5,\"h\":6,\"i\":\"7\"},\"id\":\"01341700-8941-11e7-ae47-c39fac9e066f\",\"type\":\"visualization\",\"version\":\"6.1.0\"},{\"panelIndex\":\"8\",\"gridData\":{\"x\":0,\"y\":24,\"w\":12,\"h\":6,\"i\":\"8\"},\"columns\":[\"dest_geoip.region_name\",\"dest_ip_rdns\",\"event_type\",\"http.xff\"],\"id\":\"232f51c0-8942-11e7-9b65-0b2e32ce3ad2\",\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\",\"version\":\"6.1.0\"},{\"panelIndex\":\"9\",\"gridData\":{\"x\":5,\"y\":4,\"w\":7,\"h\":8,\"i\":\"9\"},\"id\":\"AV6UvsgRnZ-6Hw_L6amo\",\"type\":\"visualization\",\"version\":\"6.1.0\"},{\"panelIndex\":\"10\",\"gridData\":{\"x\":0,\"y\":12,\"w\":6,\"h\":6,\"i\":\"10\"},\"id\":\"AV6UzaKEnZ-6Hw_L6bP4\",\"type\":\"visualization\",\"version\":\"6.1.0\"}]",
+      "optionsJSON": "{\"darkTheme\":false,\"useMargins\":false}",
+      "uiStateJSON": "{\"P-1\":{\"vis\":{\"defaultColors\":{\"0 - 14\":\"rgb(247,252,245)\",\"112 - 126\":\"rgb(21,127,59)\",\"126 - 140\":\"rgb(0,100,40)\",\"14 - 28\":\"rgb(233,247,228)\",\"28 - 42\":\"rgb(211,238,205)\",\"42 - 56\":\"rgb(184,227,177)\",\"56 - 70\":\"rgb(152,213,148)\",\"70 - 84\":\"rgb(116,196,118)\",\"84 - 98\":\"rgb(75,176,98)\",\"98 - 112\":\"rgb(47,152,79)\"}}},\"P-3\":{\"mapCenter\":[34.30714385628804,-13.0078125],\"mapZoom\":2},\"P-9\":{\"vis\":{\"defaultColors\":{\"0 - 300\":\"rgb(0,104,55)\",\"300 - 600\":\"rgb(26,151,80)\",\"600 - 900\":\"rgb(102,189,99)\",\"900 - 1,200\":\"rgb(166,217,106)\",\"1,200 - 1,500\":\"rgb(217,239,139)\",\"1,500 - 1,800\":\"rgb(255,255,190)\",\"1,800 - 2,100\":\"rgb(254,224,139)\",\"2,100 - 2,400\":\"rgb(253,174,97)\",\"2,400 - 2,700\":\"rgb(244,109,67)\",\"2,700 - 3,000\":\"rgb(214,47,39)\"}}}}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-7d",
+      "refreshInterval": {
+        "display": "1 minute",
+        "pause": true,
+        "section": 2,
+        "value": 60000
+      },
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[],\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":{\"match_all\":{}}}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "232f51c0-8942-11e7-9b65-0b2e32ce3ad2",
+    "_type": "search",
+    "_source": {
+      "title": "Event Table",
+      "description": "",
+      "hits": 0,
+      "columns": [
+        "event_type",
+        "in_iface",
+        "dest_geoip.region_name",
+        "dest_ip_rdns",
+        "src_ip_rdns",
+        "http.hostname",
+        "http.xff"
+      ],
+      "sort": [
+        "@timestamp",
+        "desc"
+      ],
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"highlightAll\":true,\"version\":true,\"query\":{\"language\":\"lucene\",\"query\":{\"match_all\":{}}},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "a61916a0-893a-11e7-813c-6b8d6399e4b1",
+    "_type": "visualization",
+    "_source": {
+      "title": "Threat Traffic Overview Map",
+      "visState": "{\"title\":\"Threat Traffic Overview Map\",\"type\":\"tile_map\",\"params\":{\"mapType\":\"Shaded Circle Markers\",\"isDesaturated\":true,\"addTooltip\":true,\"heatMaxZoom\":0,\"heatMinOpacity\":0.1,\"heatRadius\":25,\"heatBlur\":15,\"legendPosition\":\"bottomright\",\"mapZoom\":2,\"mapCenter\":[0,0],\"wms\":{\"enabled\":false,\"url\":\"https://basemap.nationalmap.gov/arcgis/services/USGSTopo/MapServer/WMSServer\",\"options\":{\"version\":\"1.3.0\",\"layers\":\"0\",\"format\":\"image/png\",\"transparent\":true,\"attribution\":\"Maps provided by USGS\",\"styles\":\"\"}}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"geohash_grid\",\"schema\":\"segment\",\"params\":{\"field\":\"src_geoip.location\",\"autoPrecision\":true,\"useGeocentroid\":true,\"precision\":2}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"query\":{\"query\":{\"match_all\":{}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "AV6atMc5nZ-6Hw_L7bLm",
+    "_type": "visualization",
+    "_source": {
+      "title": "Interfaces Tags",
+      "visState": "{\"title\":\"Interfaces Tags\",\"type\":\"tagcloud\",\"params\":{\"scale\":\"linear\",\"orientation\":\"single\",\"minFontSize\":15,\"maxFontSize\":25},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"in_iface.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"query\":{\"query\":{\"match_all\":{}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "ae0d0330-898a-11e7-b143-9fc1a570a1a2",
+    "_type": "visualization",
+    "_source": {
+      "title": "Threat Country Heatmap",
+      "visState": "{\"title\":\"Threat Country Heatmap\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"right\",\"times\":[],\"colorsNumber\":8,\"colorSchema\":\"Green to Red\",\"setColorRange\":false,\"colorsRange\":[],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":false,\"rotate\":0,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"src_geoip.country_name.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"alert.signature.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"alert.severity\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"row\":true}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 3\":\"rgb(0,104,55)\",\"3 - 5\":\"rgb(45,161,85)\",\"5 - 7\":\"rgb(135,203,103)\",\"7 - 9\":\"rgb(204,233,131)\",\"9 - 12\":\"rgb(255,255,190)\",\"12 - 14\":\"rgb(254,211,128)\",\"14 - 16\":\"rgb(249,142,82)\",\"16 - 18\":\"rgb(222,63,46)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"query\":{\"query\":{\"match_all\":{}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "6953b9e0-893b-11e7-813c-6b8d6399e4b1",
+    "_type": "visualization",
+    "_source": {
+      "title": "Attacks Timeline Bars",
+      "visState": "{\n  \"title\": \"Attacks Timeline Bars\",\n  \"type\": \"histogram\",\n  \"params\": {\n    \"grid\": {\n      \"categoryLines\": true,\n      \"style\": {\n        \"color\": \"#eee\"\n      },\n      \"valueAxis\": \"ValueAxis-1\"\n    },\n    \"categoryAxes\": [\n      {\n        \"id\": \"CategoryAxis-1\",\n        \"type\": \"category\",\n        \"position\": \"bottom\",\n        \"show\": true,\n        \"style\": {},\n        \"scale\": {\n          \"type\": \"linear\"\n        },\n        \"labels\": {\n          \"show\": true,\n          \"truncate\": 100\n        },\n        \"title\": {\n          \"text\": \"@timestamp per 5 minutes\"\n        }\n      }\n    ],\n    \"valueAxes\": [\n      {\n        \"id\": \"ValueAxis-1\",\n        \"name\": \"LeftAxis-1\",\n        \"type\": \"value\",\n        \"position\": \"left\",\n        \"show\": true,\n        \"style\": {},\n        \"scale\": {\n          \"type\": \"linear\",\n          \"mode\": \"normal\",\n          \"defaultYExtents\": true,\n          \"setYExtents\": false\n        },\n        \"labels\": {\n          \"show\": true,\n          \"rotate\": 0,\n          \"filter\": false,\n          \"truncate\": 100\n        },\n        \"title\": {\n          \"text\": \"Count\"\n        }\n      }\n    ],\n    \"seriesParams\": [\n      {\n        \"show\": \"true\",\n        \"type\": \"histogram\",\n        \"mode\": \"normal\",\n        \"data\": {\n          \"label\": \"Count\",\n          \"id\": \"1\"\n        },\n        \"valueAxis\": \"ValueAxis-1\",\n        \"drawLinesBetweenPoints\": true,\n        \"showCircles\": true,\n        \"interpolate\": \"linear\"\n      }\n    ],\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"legendPosition\": \"top\",\n    \"times\": [],\n    \"addTimeMarker\": true\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"date_histogram\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"@timestamp\",\n        \"interval\": \"auto\",\n        \"customInterval\": \"2h\",\n        \"min_doc_count\": 1,\n        \"extended_bounds\": {}\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"group\",\n      \"params\": {\n        \"field\": \"alert.category.keyword\",\n        \"size\": 10,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\"\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\n  \"query\": {\n    \"query\": {\n      \"match_all\": {}\n    },\n    \"language\": \"lucene\"\n  },\n  \"filter\": []\n}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "1c45f060-893f-11e7-9b65-0b2e32ce3ad2",
+    "_type": "visualization",
+    "_source": {
+      "title": "TLS Certs seen By City Breakdown",
+      "visState": "{\"title\":\"TLS Certs seen By City Breakdown\",\"type\":\"histogram\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":80},\"title\":{\"text\":\"tls.subject.keyword: Descending\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":true,\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"times\":[],\"addTimeMarker\":false,\"orderBucketsBySum\":false,\"type\":\"histogram\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"tls.subject.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"dest_geoip.city_name.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"query\":{\"query\":{\"match_all\":{}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "e880b620-8939-11e7-813c-6b8d6399e4b1",
+    "_type": "visualization",
+    "_source": {
+      "title": "Attack Type Pie Breakdown",
+      "visState": "{\"title\":\"Attack Type Pie Breakdown\",\"type\":\"pie\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"left\",\"isDonut\":true,\"type\":\"pie\",\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"IDS Alerts Breakdown Pie\"}},{\"id\":\"5\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"alert.severity\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"alert.category.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"alert.signature.keyword\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"6\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"src_geoip.country_name.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"query\":{\"query\":{\"match_all\":{}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "01341700-8941-11e7-ae47-c39fac9e066f",
+    "_type": "visualization",
+    "_source": {
+      "title": "HTTP Breakdown Pie",
+      "visState": "{\n  \"title\": \"HTTP Breakdown Pie\",\n  \"type\": \"pie\",\n  \"params\": {\n    \"addTooltip\": true,\n    \"addLegend\": true,\n    \"legendPosition\": \"right\",\n    \"isDonut\": true\n  },\n  \"aggs\": [\n    {\n      \"id\": \"1\",\n      \"enabled\": true,\n      \"type\": \"count\",\n      \"schema\": \"metric\",\n      \"params\": {}\n    },\n    {\n      \"id\": \"6\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"http.xff.keyword\",\n        \"size\": 20,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\"\n      }\n    },\n    {\n      \"id\": \"4\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"http.hostname.keyword\",\n        \"size\": 10,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\"\n      }\n    },\n    {\n      \"id\": \"2\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"http.http_user_agent.keyword\",\n        \"size\": 30,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\"\n      }\n    },\n    {\n      \"id\": \"5\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"http.url.keyword\",\n        \"size\": 5,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\"\n      }\n    },\n    {\n      \"id\": \"3\",\n      \"enabled\": true,\n      \"type\": \"terms\",\n      \"schema\": \"segment\",\n      \"params\": {\n        \"field\": \"http.content_type.keyword\",\n        \"size\": 10,\n        \"order\": \"desc\",\n        \"orderBy\": \"1\"\n      }\n    }\n  ],\n  \"listeners\": {}\n}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\n  \"index\": \"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\n  \"query\": {\n    \"query\": {\n      \"match_all\": {}\n    },\n    \"language\": \"lucene\"\n  },\n  \"filter\": []\n}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "14409f10-8939-11e7-813c-6b8d6399e4b1",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top Geo URL Talkers",
+      "visState": "{\"title\":\"Top Geo URL Talkers\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"top\",\"times\":[],\"colorsNumber\":10,\"colorSchema\":\"Greens\",\"setColorRange\":false,\"colorsRange\":[],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":true,\"rotate\":0,\"color\":\"#555\"}}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"dest_geoip.city_name.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"dest_ip_rdns.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 14\":\"rgb(247,252,245)\",\"14 - 28\":\"rgb(233,247,228)\",\"28 - 42\":\"rgb(211,238,205)\",\"42 - 56\":\"rgb(184,227,177)\",\"56 - 70\":\"rgb(152,213,148)\",\"70 - 84\":\"rgb(116,196,118)\",\"84 - 98\":\"rgb(75,176,98)\",\"98 - 112\":\"rgb(47,152,79)\",\"112 - 126\":\"rgb(21,127,59)\",\"126 - 140\":\"rgb(0,100,40)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"query\":{\"query\":{\"match_all\":{}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "f822fd10-f8ae-11e7-8fd7-f5df6d5babe9",
+    "_type": "visualization",
+    "_source": {
+      "title": "Flows Engress/Ingress Time Trends",
+      "visState": "{\"title\":\"Flows Engress/Ingress Time Trends\",\"type\":\"area\",\"params\":{\"type\":\"area\",\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"}},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"bottom\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"truncate\":100},\"title\":{}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"LeftAxis-1\",\"type\":\"value\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\",\"mode\":\"normal\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":100},\"title\":{\"text\":\"Sum of flow.bytes_toserver\"}}],\"seriesParams\":[{\"show\":\"true\",\"type\":\"histogram\",\"mode\":\"stacked\",\"data\":{\"label\":\"Sum of flow.bytes_toserver\",\"id\":\"1\"},\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"cardinal\",\"valueAxis\":\"ValueAxis-1\"},{\"show\":true,\"mode\":\"stacked\",\"type\":\"histogram\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"interpolate\":\"cardinal\",\"data\":{\"id\":\"3\",\"label\":\"Sum of flow.bytes_toclient\"},\"valueAxis\":\"ValueAxis-1\"}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"flow.bytes_toserver\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"flow.bytes_toclient\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"dest_ip_rdns.keyword\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"auto\",\"customInterval\":\"2h\",\"min_doc_count\":1,\"extended_bounds\":{}}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"filter\":[],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "AV6UzaKEnZ-6Hw_L6bP4",
+    "_type": "visualization",
+    "_source": {
+      "title": "Top Req Files and their sizes",
+      "visState": "{\"title\":\"Top Req Files and their sizes\",\"type\":\"histogram\",\"params\":{\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"},\"valueAxis\":\"ValueAxis-1\"},\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"type\":\"category\",\"position\":\"left\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"linear\"},\"labels\":{\"show\":true,\"rotate\":0,\"filter\":false,\"truncate\":60},\"title\":{\"text\":\"fileinfo.filename.keyword: Descending\"}}],\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"name\":\"TopAxis-1\",\"type\":\"value\",\"position\":\"top\",\"show\":true,\"style\":{},\"scale\":{\"type\":\"log\",\"mode\":\"normal\",\"defaultYExtents\":false,\"setYExtents\":false},\"labels\":{\"show\":true,\"rotate\":75,\"filter\":true,\"truncate\":100},\"title\":{\"text\":\"Count\"}}],\"seriesParams\":[{\"show\":true,\"mode\":\"normal\",\"type\":\"histogram\",\"drawLinesBetweenPoints\":true,\"showCircles\":true,\"data\":{\"id\":\"3\",\"label\":\"Average fileinfo.size\"},\"valueAxis\":\"ValueAxis-1\"},{\"show\":true,\"type\":\"histogram\",\"mode\":\"normal\",\"data\":{\"label\":\"Count\",\"id\":\"1\"},\"valueAxis\":\"ValueAxis-1\",\"drawLinesBetweenPoints\":true,\"showCircles\":true}],\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"right\",\"times\":[],\"addTimeMarker\":false,\"type\":\"histogram\",\"orderBucketsBySum\":false},\"aggs\":[{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"fileinfo.filename.keyword\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"avg\",\"schema\":\"metric\",\"params\":{\"field\":\"fileinfo.size\"}},{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"query\":{\"query\":{\"match_all\":{}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "9d0f0f50-f8ad-11e7-8fd7-f5df6d5babe9",
+    "_type": "visualization",
+    "_source": {
+      "title": "Flow - Top Talkers Egress",
+      "visState": "{\"title\":\"Flow - Top Talkers Egress\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"flow.bytes_toserver\",\"customLabel\":\"Top Talkers Egress\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"src_ip_rdns.keyword\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"dest_ip_rdns.keyword\",\"size\":10,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"filter\":[{\"meta\":{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"negate\":true,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"src_ip_rdns.keyword\",\"value\":\"69-165-173-65.dsl.teksavvy.com\",\"params\":{\"query\":\"69-165-173-65.dsl.teksavvy.com\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"src_ip_rdns.keyword\":{\"query\":\"69-165-173-65.dsl.teksavvy.com\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"negate\":true,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"src_ip_rdns.keyword\",\"value\":\"firewall.lan\",\"params\":{\"query\":\"firewall.lan\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"src_ip_rdns.keyword\":{\"query\":\"firewall.lan\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}},{\"meta\":{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"negate\":true,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"dest_ip_rdns.keyword\",\"value\":\"firewall.lan\",\"params\":{\"query\":\"firewall.lan\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"dest_ip_rdns.keyword\":{\"query\":\"firewall.lan\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "60897020-f8ad-11e7-8fd7-f5df6d5babe9",
+    "_type": "visualization",
+    "_source": {
+      "title": "Flow - Top Talkers Ingress",
+      "visState": "{\"title\":\"Flow - Top Talkers Ingress\",\"type\":\"pie\",\"params\":{\"type\":\"pie\",\"addTooltip\":true,\"addLegend\":true,\"legendPosition\":\"top\",\"isDonut\":true,\"labels\":{\"show\":true,\"values\":true,\"last_level\":true,\"truncate\":100}},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"sum\",\"schema\":\"metric\",\"params\":{\"field\":\"flow.bytes_toclient\",\"customLabel\":\"Top Talkers Ingress\"}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"dest_ip_rdns.keyword\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"src_ip_rdns.keyword\",\"size\":20,\"order\":\"desc\",\"orderBy\":\"1\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"legendOpen\":false}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"filter\":[{\"meta\":{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"negate\":true,\"disabled\":false,\"alias\":null,\"type\":\"phrase\",\"key\":\"src_ip_rdns.keyword\",\"value\":\"69-165-173-65.dsl.teksavvy.com\",\"params\":{\"query\":\"69-165-173-65.dsl.teksavvy.com\",\"type\":\"phrase\"}},\"query\":{\"match\":{\"src_ip_rdns.keyword\":{\"query\":\"69-165-173-65.dsl.teksavvy.com\",\"type\":\"phrase\"}}},\"$state\":{\"store\":\"appState\"}}],\"query\":{\"query\":\"\",\"language\":\"lucene\"}}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "ed6e2070-893c-11e7-813c-6b8d6399e4b1",
+    "_type": "visualization",
+    "_source": {
+      "title": "Threats from Country Count Summary",
+      "visState": "{\"title\":\"Threats from Country Count Summary\",\"type\":\"histogram\",\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"categoryAxes\":[{\"id\":\"CategoryAxis-1\",\"labels\":{\"filter\":false,\"rotate\":0,\"show\":true,\"truncate\":250},\"position\":\"left\",\"scale\":{\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"alert.signature.keyword: Descending\"},\"type\":\"category\"}],\"grid\":{\"categoryLines\":false,\"style\":{\"color\":\"#eee\"},\"valueAxis\":null},\"legendPosition\":\"top\",\"orderBucketsBySum\":false,\"seriesParams\":[{\"data\":{\"id\":\"1\",\"label\":\"Count\"},\"drawLinesBetweenPoints\":true,\"mode\":\"normal\",\"show\":true,\"showCircles\":true,\"type\":\"histogram\",\"valueAxis\":\"ValueAxis-1\"}],\"times\":[],\"type\":\"histogram\",\"valueAxes\":[{\"id\":\"ValueAxis-1\",\"labels\":{\"filter\":true,\"rotate\":0,\"show\":true,\"truncate\":100},\"name\":\"BottomAxis-1\",\"position\":\"bottom\",\"scale\":{\"defaultYExtents\":false,\"mode\":\"normal\",\"type\":\"linear\"},\"show\":true,\"style\":{},\"title\":{\"text\":\"Count\"},\"type\":\"value\"}]},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"src_geoip.country_name.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Country\",\"row\":false}},{\"id\":\"2\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"alert.signature.keyword\",\"size\":3,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Attack Types\"}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"alert.category.keyword\",\"size\":3,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"\"}}]}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"query\":{\"query\":{\"match_all\":{}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  },
+  {
+    "_id": "AV6UvsgRnZ-6Hw_L6amo",
+    "_type": "visualization",
+    "_source": {
+      "title": "Threat IP/rdns  Heatmap",
+      "visState": "{\"title\":\"Threat IP/rdns  Heatmap\",\"type\":\"heatmap\",\"params\":{\"addTooltip\":true,\"addLegend\":true,\"enableHover\":false,\"legendPosition\":\"top\",\"times\":[],\"colorsNumber\":10,\"colorSchema\":\"Green to Red\",\"setColorRange\":false,\"colorsRange\":[],\"invertColors\":false,\"percentageMode\":false,\"valueAxes\":[{\"show\":false,\"id\":\"ValueAxis-1\",\"type\":\"value\",\"scale\":{\"type\":\"linear\",\"defaultYExtents\":false},\"labels\":{\"show\":true,\"rotate\":270,\"color\":\"#FFF\"}}],\"type\":\"heatmap\"},\"aggs\":[{\"id\":\"1\",\"enabled\":true,\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"3\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"alert.signature.keyword\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Signatures\"}},{\"id\":\"4\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"alert.severity\",\"size\":3,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Severity\",\"row\":true}},{\"id\":\"5\",\"enabled\":true,\"type\":\"terms\",\"schema\":\"segment\",\"params\":{\"field\":\"src_ip_rdns.keyword\",\"size\":7,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Reverse DNS\"}}]}",
+      "uiStateJSON": "{\"vis\":{\"defaultColors\":{\"0 - 300\":\"rgb(0,104,55)\",\"300 - 600\":\"rgb(26,151,80)\",\"600 - 900\":\"rgb(102,189,99)\",\"900 - 1,200\":\"rgb(166,217,106)\",\"1,200 - 1,500\":\"rgb(217,239,139)\",\"1,500 - 1,800\":\"rgb(255,255,190)\",\"1,800 - 2,100\":\"rgb(254,224,139)\",\"2,100 - 2,400\":\"rgb(253,174,97)\",\"2,400 - 2,700\":\"rgb(244,109,67)\",\"2,700 - 3,000\":\"rgb(214,47,39)\"}}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"76d7ac60-f7fa-11e7-b05e-e9684fb37862\",\"query\":{\"query\":{\"match_all\":{}},\"language\":\"lucene\"},\"filter\":[]}"
+      }
+    },
+    "_meta": {
+      "savedObjectVersion": 2
+    }
+  }
+]
