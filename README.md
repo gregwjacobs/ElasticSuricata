@@ -23,8 +23,14 @@ If you haven't got the hint yet, comment out the entire `mutate` and `dns` JSON 
 * Copy template to templates folder - for example  `/etc/logstash/templates/suricata_template.json`
 * Copy logstash configution to conf.d folder - for example `/etc/logstash/conf.d/logstash_suricata_eve.conf`
 
+## Replica and Shards
+
+* Note that the profiled mapping templae sets replica count to 0 and shards to 1. This is ideal for a home lab using a single elasticsearch node. But you will want to adjust to suit any production or larger scale cluster / data footprint. 
+
+## Disclaimers and Warnings
+
 The above configuration files are for Elastic 6.x and will not work with 5.x or earlier versions. 
 
-It most certainly is not an optimal configuration - just 'enough' to get you up and running!
+It most certainly is not an optimal configuration - just 'enough' to get you up and running. If you choose to send the FULL set of EVE Data including flows in a larger scale network enviroment, there will be alot of indexing occuring. Fine for home, but can pinch harder at work.
 
-No warrenties expressed or implied. Use at your own risk. 
+No warrenties expressed or implied. Use at your own risk.  Happy to get PR's with enhancements, fixes or suggestions on better mapping configurations or indexing optimizations. 
