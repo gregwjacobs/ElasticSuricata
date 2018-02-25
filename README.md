@@ -23,6 +23,11 @@ If you haven't got the hint yet, comment out the entire `mutate` and `dns` JSON 
 * Copy template to templates folder - for example  `/etc/logstash/templates/suricata_template.json`
 * Copy logstash configution to conf.d folder - for example `/etc/logstash/conf.d/logstash_suricata_eve.conf`
 
+## Kibana Assets / Dashboards
+
+You can 'import' the provided `kibana_export.json` file into Kibana to gain two working dashboards and various visualizations in each. Its nothing fancy but allows to start tinkering further on your own. Works with Kibana 6.x as of this posting.
+
+
 ## Replica and Shards
 
 * Note that the profiled mapping templae sets replica count to 0 and shards to 1. This is ideal for a home lab using a single elasticsearch node. But you will want to adjust to suit any production or larger scale cluster / data footprint. 
