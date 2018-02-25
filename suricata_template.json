@@ -1,0 +1,56 @@
+{
+  "template" : "logstash-suricata-*",
+  "settings" : {
+    "index.refresh_interval" : "5s",
+    "number_of_replicas": 0,
+    "number_of_shards": 1
+},
+  "mappings" : {
+    "_default_" : {
+      "_all" : {"enabled" : false, "norms" : false},
+      "dynamic_templates" : [ {
+        "double_fields" : {
+          "match" : "*",
+          "match_mapping_type" : "double",
+          "mapping" : { "type" : "double"}
+        }
+      }, {
+        "long_fields" : {
+          "match" : "*",
+          "match_mapping_type" : "long",
+          "mapping" : { "type" : "long", "doc_values" : true }
+        }
+      }, {
+        "date_fields" : {
+          "match" : "*",
+          "match_mapping_type" : "date",
+          "mapping" : { "type" : "date", "doc_values" : true }
+        }
+      } ],
+      "properties" : {
+        "@timestamp": { "type": "date", "doc_values" : true },
+        "@version": { "type": "text", "index": false },
+        "dest_geoip"  : {
+          "type" : "object",
+          "dynamic": true,
+          "properties" : {
+            "ip": { "type": "ip", "doc_values" : true },
+            "location" : { "type" : "geo_point", "doc_values" : true },
+            "latitude" : { "type" : "double", "doc_values" : true },
+            "longitude" : { "type" : "double", "doc_values" : true }
+          }
+        },
+        "src_geoip"  : {
+          "type" : "object",
+          "dynamic": true,
+          "properties" : {
+            "ip": { "type": "ip", "doc_values" : true },
+            "location" : { "type" : "geo_point", "doc_values" : true },
+            "latitude" : { "type" : "double", "doc_values" : true },
+            "longitude" : { "type" : "double", "doc_values" : true }
+          }
+        }
+      }
+    }
+  }
+}
