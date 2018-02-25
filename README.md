@@ -6,6 +6,7 @@ Example Configurations for Elastic + Suricata EVE
 * Logstash 6
 * Recent version of redis (default configuration fine if also running localhost) 
 * Suricata with EVE enabled (ideally use pfSense for a rapid install / setup ) - configure to send EVE data to your REDIS server
+* Ensure REDIS can receive from your instance of suricata if running on another host. You will have to modify the `bind` setting - eg. `bind 0.0.0.0`. Use caution if it is not on a private LAN. See https://redis.io/topics/security
 
 ## Solution Diagram
 
@@ -15,10 +16,10 @@ Suricata --->  EVE REDIS Data ---> REDIS ---> Logstash REDIS Client ---> Logstas
 
 If you choose to use reverse DNS lookups as added fields - use caution (or comment those out!) 
 
-1) Use a local DNS sever that mirrors root servers daily - notice our configurations are localhost to further improve lookup speeds. 
+1) Use a local DNS sever that mirrors root servers daily ? - notice our configurations are localhost to further improve lookup speeds as my own lab host has its own cache dns server local
 2) Lookup on some DNS IP's / domains will trigger IDS/IPS rules, so use caution again if you choose to reverse lookup IP's
 
-If you haven't got the hint yet, comment out the entire `mutate` and `dns` JSON elements if just getting started. Mess with those at a later time.
+If you haven't got the hint yet, comment out the entire `mutate` and `dns` JSON elements if just getting started. Mess with those at a later time.  You can see what I mean looking at the example `logstash_suricata_eve.conf.nodns` example file.
 
 * Copy template to templates folder - for example  `/etc/logstash/templates/suricata_template.json`
 * Copy logstash configution to conf.d folder - for example `/etc/logstash/conf.d/logstash_suricata_eve.conf`
