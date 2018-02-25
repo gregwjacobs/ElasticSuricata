@@ -1,0 +1,39 @@
+input {
+  redis {
+    host => "127.0.0.1"
+    data_type => "list"
+    key => "suricata"
+    codec => "json"
+    threads => 12
+    type => "SuricataIDPS"
+  }
+}
+
+filter {
+  if [type] == "SuricataIDPS" {
+    date {
+      match => [ "timestamp", "ISO8601" ]
+    }
+  }
+  if [src_ip] {
+    geoip {
+      source => "src_ip"
+      target => "src_geoip"
+    }
+  }
+  if [dest_ip] {
+    geoip {
+      source => "dest_ip"
+      target => "dest_geoip"
+    }
+  }
+}
+
+output {
+  elasticsearch {
+    hosts => ["127.0.0.1"]
+    index => "logstash-suricata-%{+YYYY.MM.dd}"
+    template => "/etc/logstash/templates/suricata_template.json"
+    template_overwrite => true
+  }
+}
